@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+  <display-name>TicketReservationApp</display-name>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Registrationcheckservlet</display-name>
+    <servlet-name>Registrationcheckservlet</servlet-name>
+    <servlet-class>com.ticketreservation.Registrationcheckservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Registrationcheckservlet</servlet-name>
+    <url-pattern>/Registrationcheckservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Changepasswordservlet</display-name>
+    <servlet-name>Changepasswordservlet</servlet-name>
+    <servlet-class>com.ticketreservation.Changepasswordservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Changepasswordservlet</servlet-name>
+    <url-pattern>/Changepasswordservlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Adminservlet</display-name>
+    <servlet-name>Adminservlet</servlet-name>
+    <servlet-class>com.ticketreservation.Adminservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Adminservlet</servlet-name>
+    <url-pattern>/Adminservlet</url-pattern>
+  </servlet-mapping>
+</web-app>
