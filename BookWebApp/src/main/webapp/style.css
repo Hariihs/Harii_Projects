@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body{
+	background-color: black;
+	color:azure;
+} 
+h1{
+	color:tomato;
+	background-color: whitesmoke; 
+	text-align: center;  
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
